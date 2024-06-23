@@ -1,0 +1,19 @@
+//Variables
+
+let numeroSecreto = 6;
+let numeroUsuario = prompt("Me indicas un número por favor entre 1 y 10");
+
+console.log(numeroUsuario);
+
+//Condiciones
+if(numeroUsuario == numeroSecreto) {
+    alert(`acertaste, el mumero es: ${numeroUsuario}`);
+} else{
+    if(numeroUsuario > numeroSecreto)
+        alert("El numero es menor")
+    //La condicion no se cumplio
+    } else{
+        alert("El numero secreto es mayor")
+    
+    //alert("Lo siento, no acertaste")
+}
